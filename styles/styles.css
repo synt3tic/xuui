@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'NEXTART';
+    font-style: normal;
+    src: url(../fonts/NEXTART.woff);
+}
+
+@font-face {
+    font-family: 'ArodoraPro';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/ArodoraPro.woff);
+}
+
+.body {
+    z-index: 0;
+    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home {
+    width: 1202px;
+    height: 761.47px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.home__header {
+    display: flex;
+    flex-direction: row;
+    width: 1110px;
+    height: 48px;
+    margin-top: 26px;
+}
+
+.home__header-logo {
+    background-image: url(../images/home-header-logo.svg);
+    width: 245px;
+}
+
+.home__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 400px;
+    width: 710px;
+}
+
+.home__menu-link {
+    height: 21px;
+    font-family: 'ArodoraPro';
+    font-size: 18px;
+    line-height: 21px;
+    color: #E4E4E4;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.home__menu-link:hover {
+    color: #E2A300;
+    border-bottom: solid 1px #E2A300;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 447px;
+    margin-top: 194px;
+}
+
+.main__info-greetings {
+    font-family: 'NEXTART';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    margin: 0;
+    margin-bottom: 6px;
+    color: #E4E4E4;
+}
+
+.main__info-name {
+    font-family: 'NEXTART';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+    color: #E4E4E4;
+    margin: 0;
+}
+
+.main__info-text {
+    font-family: 'ArodoraPro';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #E4E4E4;
+    text-decoration: none;
+}
+
+.main__info-button {
+    width: 200px;
+    height: 47px;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    font-family: 'NEXTART';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.main__info-button:hover {
+    background: linear-gradient(87.32deg, #00c0e2 4.47%, #00c0e2 95.53%);
+    box-shadow: 0px 2px 13px rgba(0, 143, 226, 0.48);
+}
+
+.main__me {
+    position: relative;
+    width: 632px;
+    height: 674.47px;
+    margin: 0;
+}
+
+.main__me-men {
+    position: absolute;
+    top: -40px;
+}
+
+.about {
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1847px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1180px;
+    height: 570px;
+    margin-top: 113px;
+}
+
+.links__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 270px;
+    height: 270px;
+    background-color: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    margin-right: 15px;
+    margin-top: 11px;
+}
+
+.links__card:hover {
+    background-color: #585858;
+    box-shadow: 0px 4px 6px rgba(46, 46, 46, 0.47);
+    cursor: pointer;
+}
+
+.links__icon {
+    width: 80px;
+    height: 80px;
+    margin-top: 60px;
+}
+
+.links__text {
+    position: absolute;
+    color: #E4E4E4;
+    font-family: 'ArodoraPro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    bottom: 35px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 136px;
+    height: 979px;
+    width: 1284px;
+}
+
+.about-me__circles {
+
+}
+
+.about-me__square-pic-one {
+    width: 330px;
+    height: 378px;
+    background: #2C2C2C;
+    border-radius: 14px;
+    position: absolute;
+    top: 0;
+    left: 195px;
+    z-index: 1;
+}
+
+.about-me__square-pic-two {
+    width: 310px;
+    height: 485px;
+    background: #2C2C2C;
+    border-radius: 14px;
+    position: absolute;
+    right: 3px;
+    top: 206px;
+    z-index: 1;
+}
+
+.about-me__square-pic-three {
+    width: 307px;
+    height: 339px;
+    background: #2C2C2C;
+    border-radius: 14px;
+    position: absolute;
+    top: 575px;
+    left: 217px;
+    z-index: 1;
+}
+
+.about-me__square-info {
+    width: 496px;
+    height: 822px;
+    background: #2C2C2C;
+    border-radius: 14px;
+    position: absolute;
+    top: 47px;
+    left: 484px;
+    z-index: 0;
+}
+
+.about-me__square-info-text-header {
+    position: absolute;
+    font-family: 'NEXTART';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    color: #E4E4E4;
+    left: 70px;
+    top: -67px;
+    width: 420px;
+    height: 54px;
+}
+
+.about-me__square-info-text {
+    width: 370px;
+    height: 696px;
+    margin: 63px;
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.square-pic__image {
+    margin-top: 23px;
+    margin-left: 23px;
+    border: solid 7px rgb(65, 65, 65);
+    border-radius: 14px;
+}
+
+.square-pic__image-two {
+    position: absolute;
+    top: 22px;
+    right: 23px;
+    border: solid 7px rgb(65, 65, 65);
+    border-radius: 14px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__header {
+    width: 268px;
+    height: 54px;
+    font-family: 'NEXTART';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.portfolio__slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1170px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.portfolio__slider-button {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    border-radius: 50%;
+    border: none;
+}
+
+.portfolio__slider-button:hover {
+    background: linear-gradient(87.32deg, #00c0e2 4.47%, #00b3d3 95.53%);
+    cursor: pointer;
+}
+
+.portfolio__slider-box-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 970px;
+    height: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    border-radius: 29px;
+}
+
+.portfolio__slider-box-project-pic-ice-cream {
+    border-radius: 29px;
+    margin-left: 50px;
+}
+
+.portfolio__slider-box-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 296px;
+    height: 466px;
+    margin-left: 81px;
+}
+
+.text-box__header {
+    width: 218px;
+    height: 29px;
+    font-family: 'ArodoraPro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.text-box__info {
+    width: 296px;
+    height: 336px;
+    font-family: 'ArodoraPro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 54px;
+}
+
+.text-box__link {
+    font-family: 'ArodoraPro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #E2A100;
+    text-decoration: none;
+}
+
+.text-box__link:hover {
+    color: #00c0e2;
+}
+
+.portfolio__project-choice-pointer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    height: 15px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+.project-choice-point {
+    width: 15px;
+    height: 15px;
+    background: #414141;
+    border-radius: 50%;
+}
+
+.yellowPoint {
+    background-color: #E2A100;
+}
+
+.xuy {
+    background: #E2A100;
+    cursor: pointer;
+}
+
+.footer__block {
+    height: 238px;
+    width: 100%;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 773px;
+    height: 138px;
+    margin-top: 50px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__links-link {
+    font-family: 'ArodoraPro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #E4E4E4;
+    height: 21px;
+}
+
+.footer__links-link:hover {
+    color: #00c0e2;
+    cursor: pointer;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 115px;
+}
+
+.footer__contacts-contact {
+    font-family: 'ArodoraPro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #E4E4E4;
+    height: 21px;
+    margin: 0;
+}
+
+.footer__copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 55px;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__button-up {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    border-radius: 50%;
+    border: none;
+    margin-left: 32px;
+}
+
+.footer__button-up:hover {
+    background: linear-gradient(87.32deg, #00c0e2 4.47%, #00b3d3 95.53%);
+    cursor: pointer;
+}
+
+.footer__copyright-info {
+    font-family: 'ArodoraPro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #E4E4E4;
+    height: 21px;
+    margin: 0;
+}
